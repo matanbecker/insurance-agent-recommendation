@@ -10,8 +10,6 @@ import joblib
 import openai
 from flask import Flask, request, jsonify
 
-# Set your OpenAI API key
-openai.api_key = "xxxxxx"
 
 # Load data
 df = pd.read_csv('synthetic_renewal_data.csv')

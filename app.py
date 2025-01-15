@@ -11,7 +11,7 @@ import openai
 from flask import Flask, request, jsonify
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "xxxxxx"
 
 # Load data
 df = pd.read_csv('synthetic_renewal_data.csv')

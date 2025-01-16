@@ -15,7 +15,7 @@ from collections import OrderedDict
 import joblib
 import openai
 
-openai.api_key = "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"
+openai.api_key = "INPUT OPEN API KEY HERE"
 
 # Load data
 df = pd.read_csv('synthetic_renewal_data.csv')

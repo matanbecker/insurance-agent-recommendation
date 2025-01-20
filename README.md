@@ -31,15 +31,15 @@ Additionally, you will need access to GPT-4 via OpenAI's API. Make sure you have
 ```bash
 git clone <https://github.com/matanbecker/insurance-agent-recommendation>
 ```
-4. Download the trained machine learning model renewal_model.pkl and place it in the ```models/``` directory of the project.
+2. Download the trained machine learning model renewal_model.pkl and place it in the ```models/``` directory of the project.
 
-2. Set up your OpenAI API key. You can set your API key as an environment variable:
+3. Set up your OpenAI API key. You can set your API key as an environment variable:
 
 ```bash
 export OPENAI_API_KEY='your-api-key'
 ```
 
-3. Run the Flask application:
+4. Run the Flask application:
 ```bash
 python app.py
 ```

@@ -17,7 +17,7 @@ import openai
 import training
 from training import train_model
 
-openai.api_key = "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"
+openai.api_key = "INPUT OPEN API KEY HERE"
 
 # Define features and target variable
 num_features = [

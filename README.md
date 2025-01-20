@@ -100,6 +100,9 @@ Example response:
         "Customer Satisfaction Score: 3.9",
         "Time to Renewal (days): 30"
     ],
+    "renewal_probability": [
+        "52.00%"
+    ]
     "questions": [
         "1. What factors impact renewal in Healthcare?",
         "2. How does recent claims history influence renewal likelihood?",
@@ -134,9 +137,6 @@ Example response:
         "- Upselling: Present additional coverage options or packages that can provide the client with added value and protection, thereby increasing the chance of renewal.",
         "- Timely reminders: As the time to renewal is 30 days, ensure the client receives timely and adequate reminders about their policy renewal to avoid lapses caused by oversight.",
         "- Regulatory Compliance: As regulatory compliance can be quite challenging in CA, provide the client with as much assistance as possible to complete all the necessary documentation. This will make the renewal process easier and more efficient for the client."
-    ],
-    "renewal_probability": [
-        "52.00%"
     ]
 }
 ```

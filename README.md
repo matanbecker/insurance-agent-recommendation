@@ -79,6 +79,7 @@ The response is a JSON object containing:
 * **message**: A brief message explaining the response.
 * **renewal_probability**: The predicted probability of renewal as a percentage.
 * **customer_profile**: The customer's profile including key details like premium amount, claims filed, etc.
+* **questions**: Customer tailored renewal-related questions asked to the GPT.
 * **answers_to_questions**: GPT-generated answers to the renewal-related questions.
 * **recommendations**: GPT-generated actionable strategies to improve the renewal likelihood.
 
@@ -111,6 +112,18 @@ Example response:
     "8. Market competitiveness in New York increases retention efforts.",
     "9. To increase renewal chances, focus on improving customer satisfaction and upselling.",
     "10. Actionable strategies include offering additional coverage and increasing contact frequency."
+  ],
+  "questions": [
+      "1. What factors impact renewal in Healthcare?",
+      "2. How does recent claims history influence renewal likelihood?",
+      "3. Are there regional trends that impact renewal in CA?",
+      "4. How does policy duration affect renewal in Healthcare?",
+      "5. What renewal challenges are typical for customers of size Small?",
+      "6. How does customer satisfaction impact renewal decisions?",
+      "7. Are there upselling opportunities based on 1200 premium?",
+      "8. How does market competitiveness affect retention in CA?",
+      "9. What strategies can increase renewal chances for this customer?",
+      "10. What actions can improve renewal probability in the next 30 days?"
   ],
   "recommendations": [
     "Offer a 10% discount on premium renewal.",

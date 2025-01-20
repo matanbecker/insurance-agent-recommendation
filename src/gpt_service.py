@@ -17,7 +17,8 @@ import openai
 import training
 from training import train_model
 
-openai.api_key = "INPUT OPEN API KEY HERE"
+# openai.api_key = "INPUT OPEN API KEY HERE"
+openai.api_key = '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'
 
 # Define features and target variable
 num_features = [
@@ -97,10 +98,8 @@ def unified_endpoint():
         # GPT-4 call for answering questions
         response = openai.ChatCompletion.create(
             model="gpt-4",
-            messages=[
-                {"role": "system", "content": "You are an expert in customer renewals."},
-                {"role": "user", "content": customer_questions_prompt}
-            ]
+            messages=[{"role": "system", "content": "You are an expert in customer renewals."},
+                      {"role": "user", "content": customer_questions_prompt}]
         )
         answers = response['choices'][0]['message']['content']
 
@@ -124,10 +123,8 @@ def unified_endpoint():
         """
         recommendation_response = openai.ChatCompletion.create(
             model="gpt-4",
-            messages=[
-                {"role": "system", "content": "You are an expert in customer retention."},
-                {"role": "user", "content": recommendation_prompt}
-            ]
+            messages=[{"role": "system", "content": "You are an expert in customer retention."},
+                      {"role": "user", "content": recommendation_prompt}]
         )
         recommendations = recommendation_response['choices'][0]['message']['content']
 
@@ -146,6 +143,7 @@ def unified_endpoint():
                 f"Customer Satisfaction Score: {customer_info.get('Customer_Satisfaction_Score', 'N/A')}",
                 f"Time to Renewal (days): {customer_info.get('Time_to_Renewal', 'N/A')}"
             ]),
+            ("questions", questions),  # Included questions in the response
             ("answers_to_questions", [
                 answer.strip() for answer in answers.split("\n") if answer.strip()
             ]),  # Split GPT answers into dynamic bullet points, ignoring empty lines

@@ -43,5 +43,5 @@ def generate_synthetic_data(n_samples=10000, seed=42):
 
 if __name__ == "__main__":
     df = generate_synthetic_data()
-    df.to_csv('../data/synthetic_renewal_data.csv', index=False)
+    df.to_csv('C:/Users/MATAN/git/renewals_engine/data/synthetic_renewal_data.csv', index=False)
     print("Synthetic data generated and saved to data/synthetic_renewal_data.csv")

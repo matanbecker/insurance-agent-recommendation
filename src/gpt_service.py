@@ -158,24 +158,3 @@ def unified_endpoint():
     
 if __name__ == "__main__":
     app.run(debug=True)
-    
-    
-# def generate_gpt_response(prompt):
-#     """
-#     Sends a prompt to GPT-4 and retrieves the response.
-
-#     Args:
-#         prompt (str): The input prompt for GPT.
-
-#     Returns:
-#         str: GPT's response.
-#     """
-#     try:
-#         response = openai.ChatCompletion.create(
-#             model="gpt-4",
-#             messages=[{"role": "user", "content": prompt}]
-#         )
-#         return response['choices'][0]['message']['content']
-#     except Exception as e:
-#         print(f"Error calling GPT API: {e}")
-#         return "Error generating response."

@@ -29,7 +29,7 @@ Additionally, you will need access to GPT-4 via OpenAI's API. Make sure you have
 
 1. Clone this repository:
 ```bash
-git clone <repository_url>
+git clone <https://github.com/matanbecker/insurance-agent-recommendation>
 ```
 Download the trained machine learning model renewal_model.pkl and place it in the models/ directory of the project.
 

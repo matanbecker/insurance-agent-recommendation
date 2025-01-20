@@ -149,6 +149,3 @@ curl -X POST http://127.0.0.1:5000/unified-process -H "Content-Type: application
   "Policy_Type": "Health"
 }'
 ```
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.

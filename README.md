@@ -101,16 +101,16 @@ Example response:
         "Time to Renewal (days): 30"
     ],
     "questions": [
-    "1. What factors impact renewal in Healthcare?",
-    "2. How does recent claims history influence renewal likelihood?",
-    "3. Are there regional trends that impact renewal in CA?",
-    "4. How does policy duration affect renewal in Healthcare?",
-    "5. What renewal challenges are typical for customers of size Small?",
-    "6. How does customer satisfaction impact renewal decisions?",
-    "7. Are there upselling opportunities based on 1200 premium?",
-    "8. How does market competitiveness affect retention in CA?",
-    "9. What strategies can increase renewal chances for this customer?",
-    "10. What actions can improve renewal probability in the next 30 days?"
+        "1. What factors impact renewal in Healthcare?",
+        "2. How does recent claims history influence renewal likelihood?",
+        "3. Are there regional trends that impact renewal in CA?",
+        "4. How does policy duration affect renewal in Healthcare?",
+        "5. What renewal challenges are typical for customers of size Small?",
+        "6. How does customer satisfaction impact renewal decisions?",
+        "7. Are there upselling opportunities based on 1200 premium?",
+        "8. How does market competitiveness affect retention in CA?",
+        "9. What strategies can increase renewal chances for this customer?",
+        "10. What actions can improve renewal probability in the next 30 days?"
     ],
     "answers_to_questions": [
         "1. Renewal in Healthcare can be influenced by several factors: rates of premium, customer satisfaction, claims history, compliance with policy requirements, competition in the industry and premium adjustments.",

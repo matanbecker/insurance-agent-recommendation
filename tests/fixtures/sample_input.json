@@ -1,0 +1,16 @@
+{
+    "Premium_Amount": 1500,
+    "Policy_Duration_Years": 3,
+    "Num_Contacts": 5,
+    "Call_Duration_Minutes": 30,
+    "Claims_Filed": 2,
+    "Customer_Satisfaction_Score": 4.2,
+    "Discount_Availed": 10,
+    "Economic_Trend_Index": 100,
+    "Market_Competitiveness": 8,
+    "Time_to_Renewal": 45,
+    "Industry": "Healthcare",
+    "Location": "NY",
+    "Size": "Medium",
+    "Policy_Type": "General Liability"
+}

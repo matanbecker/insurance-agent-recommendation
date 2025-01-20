@@ -87,49 +87,57 @@ Example response:
 
 ```json
 {
-  "message": [
-    "This response contains details about the customer's profile, renewal probability, answers to key questions, and recommendations for improvement."
-  ],
-  "renewal_probability": ["85.00%"],
-  "customer_profile": [
-    "Industry: Tech",
-    "Location: New York",
-    "Size: Medium",
-    "Policy Type: Health",
-    "Premium Amount: $1,000",
-    "Claims Filed: 1",
-    "Customer Satisfaction Score: 80",
-    "Time to Renewal (days): 30"
-  ],
-  "answers_to_questions": [
-    "1. Factors impacting renewal include customer satisfaction, policy duration, and claims history.",
-    "2. Claims history has a direct negative influence on renewal likelihood.",
-    "3. Regional trends show higher retention in tech companies in urban areas.",
-    "4. Longer policy durations typically correlate with higher renewal chances.",
-    "5. Customers of medium size in the tech industry face fewer renewal challenges.",
-    "6. Customer satisfaction plays a significant role in renewal likelihood.",
-    "7. Upselling opportunities could be based on the premium amount and coverage options.",
-    "8. Market competitiveness in New York increases retention efforts.",
-    "9. To increase renewal chances, focus on improving customer satisfaction and upselling.",
-    "10. Actionable strategies include offering additional coverage and increasing contact frequency."
-  ],
-  "questions": [
-      "1. What factors impact renewal in Healthcare?",
-      "2. How does recent claims history influence renewal likelihood?",
-      "3. Are there regional trends that impact renewal in CA?",
-      "4. How does policy duration affect renewal in Healthcare?",
-      "5. What renewal challenges are typical for customers of size Small?",
-      "6. How does customer satisfaction impact renewal decisions?",
-      "7. Are there upselling opportunities based on 1200 premium?",
-      "8. How does market competitiveness affect retention in CA?",
-      "9. What strategies can increase renewal chances for this customer?",
-      "10. What actions can improve renewal probability in the next 30 days?"
-  ],
-  "recommendations": [
-    "Offer a 10% discount on premium renewal.",
-    "Increase customer satisfaction by improving support services.",
-    "Provide additional coverage options to enhance retention."
-  ]
+    "message": [
+      "This response contains details about the customer's profile, renewal probability, answers to key questions, and recommendations for improvement."
+    ],
+    "customer_profile": [
+        "Industry: Healthcare",
+        "Location: CA",
+        "Size: Small",
+        "Policy Type: Cyber",
+        "Premium Amount: $1,200",
+        "Claims Filed: 8",
+        "Customer Satisfaction Score: 3.9",
+        "Time to Renewal (days): 30"
+    ],
+    "questions": [
+    "1. What factors impact renewal in Healthcare?",
+    "2. How does recent claims history influence renewal likelihood?",
+    "3. Are there regional trends that impact renewal in CA?",
+    "4. How does policy duration affect renewal in Healthcare?",
+    "5. What renewal challenges are typical for customers of size Small?",
+    "6. How does customer satisfaction impact renewal decisions?",
+    "7. Are there upselling opportunities based on 1200 premium?",
+    "8. How does market competitiveness affect retention in CA?",
+    "9. What strategies can increase renewal chances for this customer?",
+    "10. What actions can improve renewal probability in the next 30 days?"
+    ],
+    "answers_to_questions": [
+        "1. Renewal in Healthcare can be influenced by several factors: rates of premium, customer satisfaction, claims history, compliance with policy requirements, competition in the industry and premium adjustments.",
+        "2. Recent claims history can certainly influence renewal likelihood. If there are a high number of claims, it could indicate a higher risk, which may lead the insurer to increase premiums leading to reduced likelihood of renewal.",
+        "3. In CA, factors like stricter regulatory compliance requirements, higher competition and regional economic conditions may impact renewals.",
+        "4. Policy duration can impact renewal in Healthcare. The longer a client is with a company, the higher the chances they remain loyal if they're satisfied with the service.",
+        "5. Small-sized customers may struggle with higher premiums, lack of personalized service and fulfillment durations, which can pose challenges to renewal.",
+        "6. High customer satisfaction often leads to higher renewal rates. Customers should feel they are receiving value for their premium and are treated respectfully and promptly attended to when they have claims or questions.",
+        "7. There could be upselling opportunities even with a premium of 1200. For example, offering additional coverage options that provide value for the client, while also increasing the premium.",
+        "8. Market competitiveness can greatly impact retention in CA. High competition can create pressure to decrease prices, provide better service, and offer more comprehensive coverage, impacting a client's decision to renew.",
+        "9. To increase renewal chances for this customer, we could look into a personalized communication strategy, reassess the client's coverage needs, offer them a competitive renewal premium, or introduce a no-claim bonus.",
+        "10. Actions to improve renewal probability in the next 30 days could include timely and effective communication regarding renewal, providing excellent customer service to deal with any concerns or dissatisfaction, or offering a small discount or additional coverage features upon renewal."
+    ],
+    "recommendations": [
+        "- Offer competitive premiums: The premium amount can be a determining factor in renewal decisions. Evaluate the competition to ensure your prices are competitive.",
+        "- Improve customer service: A satisfaction score of 3.9 indicates there might be some room for improvement. Enhance your customer services to ensure you are promptly addressing all their needs and concerns. Frequent and meaningful engagement with the client can significantly increase customer satisfaction.",
+        "- Highlight the value of the coverage: Encourage renewal by demonstrating how the specific coverage benefits the customer, especially considering their size and industry. For example, show them how cyber coverage has helped similar clients mitigate cyber risk.",
+        "- Address any claims issues: With the customer having filed 8 claims, they might have concerns about the claims process. Address these issues and highlight improvements that have been made to the process.",
+        "- Implement a No-Claims Bonus: Implement and highlight a no-claims bonus, rewarding the client for not filing claims. This can be a great incentive for renewal.",
+        "- Create a personalized experience: Given that this is a small-sized client, personalized communication and experiences can make them feel valued, thus increasing the chances of renewal.",
+        "- Upselling: Present additional coverage options or packages that can provide the client with added value and protection, thereby increasing the chance of renewal.",
+        "- Timely reminders: As the time to renewal is 30 days, ensure the client receives timely and adequate reminders about their policy renewal to avoid lapses caused by oversight.",
+        "- Regulatory Compliance: As regulatory compliance can be quite challenging in CA, provide the client with as much assistance as possible to complete all the necessary documentation. This will make the renewal process easier and more efficient for the client."
+    ],
+    "renewal_probability": [
+        "52.00%"
+    ]
 }
 ```
 
